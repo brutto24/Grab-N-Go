@@ -112,12 +112,10 @@
 </head>
 <body class="text-slate-800">
 
-    <!-- Login/Signup Page -->
     <div id="auth-page" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900 login-enter-active">
         <div class="bg-white rounded-xl shadow-2xl w-full max-w-md p-8 sm:p-12 text-center relative overflow-hidden h-[450px]">
             <div id="flip-container" class="flip-card-container h-full">
                 <div class="flip-card-inner h-full">
-                    <!-- Login Form (Front) -->
                     <div class="flip-card-front flex flex-col items-center justify-center">
                         <h2 class="text-3xl font-extrabold mb-2">Welcome to Grab N Go</h2>
                         <p class="text-slate-600 mb-6">Log in to your account.</p>
@@ -137,7 +135,6 @@
                         <p class="mt-4 text-sm text-slate-500">Don't have an account? <a href="#" id="show-signup" class="font-bold gradient-text">Sign Up</a></p>
                     </div>
 
-                    <!-- Signup Form (Back) -->
                     <div class="flip-card-back flex flex-col items-center justify-center">
                         <h2 class="text-3xl font-extrabold mb-2">Join Us!</h2>
                         <p class="text-slate-600 mb-6">Create your account to get started.</p>
@@ -168,11 +165,9 @@
     </div>
     
     <main id="main-content" class="pt-20 hidden">
-        <!-- Header -->
         <header class="bg-white/80 backdrop-blur-lg fixed w-full z-30 top-0 border-b border-slate-200">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-20">
-                    <!-- Logo -->
                     <a href="#" class="flex items-center space-x-2">
                         <div class="h-10 w-10 flex items-center justify-center rounded-lg gradient-bg">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
@@ -180,16 +175,13 @@
                         <span class="text-2xl font-extrabold text-slate-800">Grab N Go</span>
                     </a>
 
-                    <!-- User Actions -->
                     <div class="flex items-center space-x-4">
                         <span id="welcome-message" class="text-sm font-semibold text-slate-500 hidden"></span>
                         
-                        <!-- Profile Button -->
                         <button id="profile-button" class="flex items-center justify-center w-10 h-10 rounded-full border border-slate-300 hover:bg-slate-100 transition">
                             <svg class="w-6 h-6 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
                         </button>
 
-                        <!-- Cart Button -->
                         <button id="cart-button" class="flex items-center space-x-2 px-4 py-2 rounded-lg border border-slate-300 hover:bg-slate-100 transition">
                             <svg class="w-6 h-6 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
                             <span class="font-semibold">My Cart</span>
@@ -200,11 +192,10 @@
             </div>
         </header>
 
-        <!-- Hero Section -->
         <section class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-4">
-                    Order Your Favourites On Our, <span class="gradient-text">SVR Collage Canteen</span>
+                    Order Your Favourites on Our <span class="gradient-text">SVR College Canteen</span>
                 </h1>
                 <p class="max-w-2xl mx-auto text-lg md:text-xl text-slate-600 mb-8">
                     Welcome to the fastest way to get your canteen food. Browse the menu, place your order, and we'll let you know when it's ready for pickup.
@@ -215,53 +206,43 @@
             </div>
         </section>
 
-        <!-- Menu Section -->
         <section id="menu" class="py-16">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                 <!-- Combo Deals -->
                  <div class="mb-16">
                     <div class="mb-8">
                         <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Combo Deals</h2>
                         <p class="mt-2 text-lg text-slate-500">Best value packs for you!</p>
                     </div>
                     <div id="combo-menu-items" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                        <!-- Combo menu items will be injected here -->
-                    </div>
+                        </div>
                 </div>
-                <!-- Morning Break -->
                 <div class="mb-16">
                     <div class="mb-8">
                         <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Morning Break</h2>
                         <p class="mt-2 text-lg text-slate-500">Available from 11:10 AM to 11:30 AM</p>
                     </div>
                     <div id="morning-menu-items" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                        <!-- Morning menu items will be injected here -->
-                    </div>
+                        </div>
                 </div>
-                <!-- Afternoon Break -->
                 <div class="mb-16">
                     <div class="mb-8">
                         <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Afternoon Break</h2>
                         <p class="mt-2 text-lg text-slate-500">Available from 1:10 PM to 2:00 PM</p>
                     </div>
                     <div id="afternoon-menu-items" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                        <!-- Afternoon menu items will be injected here -->
-                    </div>
+                        </div>
                 </div>
-                <!-- Evening Snacks -->
                 <div>
                     <div class="mb-8">
                         <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Evening Snacks</h2>
                         <p class="mt-2 text-lg text-slate-500">Available from 4:30 PM to 5:30 PM</p>
                     </div>
                     <div id="evening-menu-items" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                        <!-- Evening menu items will be injected here -->
-                    </div>
+                        </div>
                 </div>
             </div>
         </section>
 
-        <!-- How it works Section -->
         <section class="py-16 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12">
@@ -289,7 +270,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
             <p>&copy; 2025 Grab N Go. All Rights Reserved.</p>
@@ -297,28 +277,21 @@
     </footer>
 
 
-    <!-- Cart Modal -->
     <div id="cart-modal" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden" aria-labelledby="cart-title" role="dialog" aria-modal="true">
         <div class="absolute inset-0" id="cart-overlay"></div>
         <div id="cart-panel" class="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
-            <!-- Cart Header -->
             <div class="flex items-center justify-between p-6 border-b border-slate-200">
                 <h2 id="cart-title" class="text-2xl font-extrabold text-slate-800">Your Order</h2>
                 <button id="close-cart-button" class="text-slate-500 hover:text-slate-800 text-3xl">&times;</button>
             </div>
-            <!-- Cart Body -->
             <div id="cart-body" class="flex-grow p-6 overflow-y-auto cart-scroll">
-                <!-- Cart items will be injected here -->
-            </div>
-            <!-- Cart Footer -->
+                </div>
             <div class="p-6 border-t border-slate-200 bg-slate-50">
-                 <!-- Subtotal -->
-                <div class="flex justify-between items-center mb-2">
+                 <div class="flex justify-between items-center mb-2">
                     <span class="text-lg font-semibold text-slate-600">Subtotal:</span>
                     <span id="cart-subtotal" class="text-xl font-bold text-slate-800">₹0.00</span>
                 </div>
                 
-                <!-- Applied Coupon and Discount -->
                 <div id="discount-display" class="hidden flex justify-between items-center mt-2 text-green-600">
                     <span class="text-md font-semibold">Discount (<span id="applied-coupon-code"></span>): 
                         <button id="remove-coupon-btn" class="text-red-500 font-bold ml-1">[remove]</button>
@@ -326,13 +299,11 @@
                     <span id="cart-discount" class="text-lg font-bold">-₹0.00</span>
                 </div>
                 
-                <!-- Total -->
                 <div class="flex justify-between items-center mt-4 pt-4 border-t border-slate-300">
                     <span class="text-xl font-bold text-slate-800">Total:</span>
                     <span id="cart-total" class="text-2xl font-extrabold gradient-text">₹0.00</span>
                 </div>
 
-                <!-- Coupon Section -->
                 <div class="mt-6">
                     <div class="flex gap-2">
                         <input type="text" id="coupon-code-input" placeholder="Enter coupon code" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
@@ -342,29 +313,25 @@
                     <div id="coupon-board" class="mt-2 p-3 bg-blue-50 border border-blue-200 rounded-lg hidden">
                         <h4 class="font-bold text-blue-800 mb-1">Available Coupons:</h4>
                         <ul id="coupon-list" class="text-sm text-blue-700 list-disc list-inside">
-                            <!-- Coupons will be injected here -->
-                        </ul>
+                            </ul>
                     </div>
                      <div id="coupon-message" class="text-sm mt-2"></div>
                 </div>
 
-                <button id="checkout-button" class="w-full mt-6 px-6 py-4 text-lg font-semibold text-white gradient-bg rounded-lg shadow-lg disabled:opacity-50 disabled:cursor-not-allowed">
+                <button id="checkout-button" class="w-full mt-6 px-6 py-4 text-lg font-semibold text-white gradient-bg rounded-lg disabled:opacity-50 disabled:cursor-not-allowed">
                     Proceed to Checkout
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- Profile Modal -->
     <div id="profile-modal" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden" aria-labelledby="profile-title" role="dialog" aria-modal="true">
         <div class="absolute inset-0" id="profile-overlay"></div>
         <div id="profile-panel" class="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out">
-            <!-- Profile Header -->
             <div class="flex items-center justify-between p-6 border-b border-slate-200">
                 <h2 id="profile-title" class="text-2xl font-extrabold text-slate-800">My Profile</h2>
                 <button id="close-profile-button" class="text-slate-500 hover:text-slate-800 text-3xl">&times;</button>
             </div>
-            <!-- Profile Body -->
             <div id="profile-body" class="flex-grow p-6 overflow-y-auto cart-scroll">
                 <div class="mb-8 p-4 bg-slate-100 rounded-lg text-center">
                     <div class="w-20 h-20 mx-auto mb-2 rounded-full bg-slate-300 flex items-center justify-center text-white text-3xl font-bold">
@@ -376,14 +343,12 @@
 
                 <h3 class="text-xl font-bold mb-4">Previous Orders</h3>
                 <div id="previous-orders-list">
-                    <!-- Previous orders will be injected here -->
-                </div>
+                    </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Checkout Modal -->
     <div id="checkout-modal" class="fixed inset-0 bg-black bg-opacity-60 z-50 hidden flex items-center justify-center p-4">
         <div class="bg-white rounded-xl shadow-2xl w-full max-w-md p-8">
             <h2 class="text-2xl font-extrabold mb-6 text-center">Confirm Order</h2>
@@ -398,7 +363,6 @@
         </div>
     </div>
 
-    <!-- Confirmation Modal -->
     <div id="confirmation-modal" class="fixed inset-0 bg-black bg-opacity-60 z-50 hidden flex items-center justify-center p-4">
         <div class="bg-white rounded-xl shadow-2xl w-full max-w-md p-8 text-center">
             <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center rounded-full bg-green-100">
@@ -407,7 +371,6 @@
             <h2 class="text-2xl font-extrabold mb-4">Order Placed!</h2>
             <p class="text-slate-600 mb-6">Your order is confirmed. Show this QR code at the counter for pickup at your selected time.</p>
             <div class="bg-slate-200 p-4 rounded-lg flex items-center justify-center mb-6">
-                <!-- Placeholder for QR Code -->
                 <svg class="w-40 h-40" viewBox="0 0 256 256"><rect width="256" height="256" fill="#fff"/><path fill="#000" d="M144 72v16h16V72h-16Zm-24-24v16h16V48h-16Zm48 48V80h16v16h-16ZM48 48v64h64V48H48Zm48 48H64V64h32v32Zm-48-4v16h16V92H48Zm120-4v16h16V92h-16Zm48-44v16h16V48h-16Zm-24 24v16h16V72h-16Zm-72 96v16h16v-16h-16Zm-24-24v16h16v-16h-16Zm-24-24v16h16v-16H48Zm24-24v16h16v-16H72Zm-24 48v16h16v-16H48Zm0 24v16h16v-16H48Zm24 0v16h16v-16H72Zm24-24v16h16v-16H96Zm24-48v16h16v-16h-16Zm24 0v16h16v-16h-16Zm24 24v16h16v-16h-16Zm0 24v16h16v-16h-16Zm-24 24v16h16v-16h-16Zm24 0v16h16v-16h-16Zm24-24v16h16v-16h-16Zm0 24v16h16v-16h-16Zm-48 24v16h16v-16h-16Zm24 0v16h16v-16h-16Zm-72-48v16h16v-16H96Zm-48 0v16h16v-16H48Zm192 120a40 40 0 1 1-40-40a40 40 0 0 1 40 40Z"/></svg>
             </div>
             <button id="close-confirmation-button" class="w-full px-6 py-3 text-lg font-semibold text-slate-600 bg-slate-200 hover:bg-slate-300 rounded-lg">Close</button>
@@ -835,5 +798,3 @@
     </script>
 </body>
 </html>
-
-
